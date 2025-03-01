@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpzowpcbao.js
+// include: /tmp/tmpai2b1k19.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -212,25 +212,25 @@ Module['FS_createPath']("/assets", "waves", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/fonts/monogram-bitmap.png", "start": 0, "end": 1376}, {"filename": "/assets/fonts/monogram.ttf", "start": 1376, "end": 11844}, {"filename": "/assets/packs/farm.csv", "start": 11844, "end": 12289}, {"filename": "/assets/tiles/base-set.aseprite", "start": 12289, "end": 18235}, {"filename": "/assets/tiles/base-set.png", "start": 18235, "end": 25960}, {"filename": "/assets/tiles/dominos.aseprite", "start": 25960, "end": 44582}, {"filename": "/assets/tiles/dominos.png", "start": 44582, "end": 56599}, {"filename": "/assets/tiles/interface.aseprite", "start": 56599, "end": 62291}, {"filename": "/assets/tiles/interface.png", "start": 62291, "end": 67220}, {"filename": "/assets/tiles/monsters.aseprite", "start": 67220, "end": 70433}, {"filename": "/assets/tiles/monsters.png", "start": 70433, "end": 74146}, {"filename": "/assets/waves/level_0.csv", "start": 74146, "end": 74838}, {"filename": "/assets/waves/level_1.csv", "start": 74838, "end": 75914}, {"filename": "/assets/waves/level_2.csv", "start": 75914, "end": 77010}], "remote_package_size": 77010});
+    loadPackage({"files": [{"filename": "/assets/fonts/monogram-bitmap.png", "start": 0, "end": 1376}, {"filename": "/assets/fonts/monogram.ttf", "start": 1376, "end": 11844}, {"filename": "/assets/packs/farm.csv", "start": 11844, "end": 12308}, {"filename": "/assets/tiles/base-set.aseprite", "start": 12308, "end": 18254}, {"filename": "/assets/tiles/base-set.png", "start": 18254, "end": 25979}, {"filename": "/assets/tiles/dominos.aseprite", "start": 25979, "end": 44601}, {"filename": "/assets/tiles/dominos.png", "start": 44601, "end": 56618}, {"filename": "/assets/tiles/interface.aseprite", "start": 56618, "end": 62310}, {"filename": "/assets/tiles/interface.png", "start": 62310, "end": 67239}, {"filename": "/assets/tiles/monsters.aseprite", "start": 67239, "end": 70452}, {"filename": "/assets/tiles/monsters.png", "start": 70452, "end": 74165}, {"filename": "/assets/waves/level_0.csv", "start": 74165, "end": 74851}, {"filename": "/assets/waves/level_1.csv", "start": 74851, "end": 75927}, {"filename": "/assets/waves/level_2.csv", "start": 75927, "end": 77023}], "remote_package_size": 77023});
 
   })();
 
-// end include: /tmp/tmpzowpcbao.js
-// include: /tmp/tmpykefa2bs.js
+// end include: /tmp/tmpai2b1k19.js
+// include: /tmp/tmpvnferubf.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpykefa2bs.js
-// include: /tmp/tmp5genacb6.js
+  // end include: /tmp/tmpvnferubf.js
+// include: /tmp/tmp2uo382l9.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmp5genacb6.js
+  // end include: /tmp/tmp2uo382l9.js
 
 
 // Sometimes an existing Module object exists with properties
