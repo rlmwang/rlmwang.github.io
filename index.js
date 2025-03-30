@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpccn6c_mo.js
+// include: /tmp/tmphoijb25d.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -215,25 +215,25 @@ Module['FS_createPath']("/assets", "world", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/dominos/farm.csv", "start": 0, "end": 1554}, {"filename": "/assets/fonts/PixelOperatorMono-Bold.ttf", "start": 1554, "end": 18298}, {"filename": "/assets/fonts/monogram-bitmap.png", "start": 18298, "end": 19674}, {"filename": "/assets/fonts/monogram.ttf", "start": 19674, "end": 30142}, {"filename": "/assets/monsters/boar.csv", "start": 30142, "end": 32334}, {"filename": "/assets/monsters/slime.csv", "start": 32334, "end": 33863}, {"filename": "/assets/shaders/base.fs", "start": 33863, "end": 34516}, {"filename": "/assets/shaders/base.vs", "start": 34516, "end": 35044}, {"filename": "/assets/shaders/black_to_gold_100.fs", "start": 35044, "end": 35676}, {"filename": "/assets/shaders/black_to_gold_330.fs", "start": 35676, "end": 36525}, {"filename": "/assets/shaders/grayscale_100.fs", "start": 36525, "end": 37277}, {"filename": "/assets/shaders/grayscale_330.fs", "start": 37277, "end": 38042}, {"filename": "/assets/tiles/monsters.aseprite", "start": 38042, "end": 41260}, {"filename": "/assets/tiles/monsters.png", "start": 41260, "end": 44953}, {"filename": "/assets/tilesets/base-set.aseprite", "start": 44953, "end": 71176}, {"filename": "/assets/tilesets/base-set.png", "start": 71176, "end": 104174}, {"filename": "/assets/tilesets/dominos.aseprite", "start": 104174, "end": 122796}, {"filename": "/assets/tilesets/interface.aseprite", "start": 122796, "end": 139611}, {"filename": "/assets/tilesets/interface.png", "start": 139611, "end": 153217}, {"filename": "/assets/tilesets/monsters.aseprite", "start": 153217, "end": 168538}, {"filename": "/assets/tilesets/monsters.png", "start": 168538, "end": 185282}, {"filename": "/assets/world/base.csv", "start": 185282, "end": 185476}], "remote_package_size": 185476});
+    loadPackage({"files": [{"filename": "/assets/dominos/farm.csv", "start": 0, "end": 1554}, {"filename": "/assets/fonts/PixelOperatorMono-Bold.ttf", "start": 1554, "end": 18298}, {"filename": "/assets/fonts/monogram-bitmap.png", "start": 18298, "end": 19674}, {"filename": "/assets/fonts/monogram.ttf", "start": 19674, "end": 30142}, {"filename": "/assets/monsters/boar.csv", "start": 30142, "end": 32334}, {"filename": "/assets/monsters/slime.csv", "start": 32334, "end": 33863}, {"filename": "/assets/shaders/base.fs", "start": 33863, "end": 34516}, {"filename": "/assets/shaders/base.vs", "start": 34516, "end": 35044}, {"filename": "/assets/shaders/black_to_gold_100.fs", "start": 35044, "end": 35676}, {"filename": "/assets/shaders/black_to_gold_330.fs", "start": 35676, "end": 36525}, {"filename": "/assets/shaders/grayscale_100.fs", "start": 36525, "end": 37277}, {"filename": "/assets/shaders/grayscale_330.fs", "start": 37277, "end": 38042}, {"filename": "/assets/tiles/monsters.aseprite", "start": 38042, "end": 41260}, {"filename": "/assets/tiles/monsters.png", "start": 41260, "end": 44953}, {"filename": "/assets/tilesets/base-set.aseprite", "start": 44953, "end": 71473}, {"filename": "/assets/tilesets/base-set.png", "start": 71473, "end": 105120}, {"filename": "/assets/tilesets/dominos.aseprite", "start": 105120, "end": 123742}, {"filename": "/assets/tilesets/interface.aseprite", "start": 123742, "end": 141345}, {"filename": "/assets/tilesets/interface.png", "start": 141345, "end": 156880}, {"filename": "/assets/tilesets/monsters.aseprite", "start": 156880, "end": 172696}, {"filename": "/assets/tilesets/monsters.png", "start": 172696, "end": 190530}, {"filename": "/assets/world/base.csv", "start": 190530, "end": 190724}], "remote_package_size": 190724});
 
   })();
 
-// end include: /tmp/tmpccn6c_mo.js
-// include: /tmp/tmp1epy6r7z.js
+// end include: /tmp/tmphoijb25d.js
+// include: /tmp/tmpkesrfms6.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp1epy6r7z.js
-// include: /tmp/tmpdhdohtc5.js
+  // end include: /tmp/tmpkesrfms6.js
+// include: /tmp/tmp3cpyuk2_.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpdhdohtc5.js
+  // end include: /tmp/tmp3cpyuk2_.js
 
 
 // Sometimes an existing Module object exists with properties
