@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmp0r1zwl7l.js
+// include: /tmp/tmp1wkwt_xu.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -215,25 +215,25 @@ Module['FS_createPath']("/assets", "world", true, true);
     }
 
     }
-    loadPackage({"files": [{"filename": "/assets/dominos/farm.csv", "start": 0, "end": 1719}, {"filename": "/assets/fonts/PixelOperatorMono-Bold.ttf", "start": 1719, "end": 18463}, {"filename": "/assets/fonts/monogram-bitmap.png", "start": 18463, "end": 19839}, {"filename": "/assets/fonts/monogram.ttf", "start": 19839, "end": 30307}, {"filename": "/assets/monsters/boar_value.csv", "start": 30307, "end": 30449}, {"filename": "/assets/monsters/boar_wave.csv", "start": 30449, "end": 30644}, {"filename": "/assets/monsters/slime_value.csv", "start": 30644, "end": 30901}, {"filename": "/assets/monsters/slime_wave.csv", "start": 30901, "end": 31142}, {"filename": "/assets/shaders/base.fs", "start": 31142, "end": 31795}, {"filename": "/assets/shaders/base.vs", "start": 31795, "end": 32323}, {"filename": "/assets/shaders/black_to_gold_100.fs", "start": 32323, "end": 32955}, {"filename": "/assets/shaders/black_to_gold_330.fs", "start": 32955, "end": 33804}, {"filename": "/assets/shaders/grayscale_100.fs", "start": 33804, "end": 34556}, {"filename": "/assets/shaders/grayscale_330.fs", "start": 34556, "end": 35321}, {"filename": "/assets/shaders/stencil_330.fs", "start": 35321, "end": 35853}, {"filename": "/assets/shaders/whitened_100.fs", "start": 35853, "end": 36340}, {"filename": "/assets/shaders/whitened_330.fs", "start": 36340, "end": 36832}, {"filename": "/assets/tiles/monsters.aseprite", "start": 36832, "end": 40050}, {"filename": "/assets/tiles/monsters.png", "start": 40050, "end": 43743}, {"filename": "/assets/tilesets/base-set.aseprite", "start": 43743, "end": 75274}, {"filename": "/assets/tilesets/base-set.png", "start": 75274, "end": 113242}, {"filename": "/assets/tilesets/dominos.aseprite", "start": 113242, "end": 131864}, {"filename": "/assets/tilesets/interface.aseprite", "start": 131864, "end": 146827}, {"filename": "/assets/tilesets/interface.png", "start": 146827, "end": 156663}, {"filename": "/assets/tilesets/monsters.aseprite", "start": 156663, "end": 172666}, {"filename": "/assets/tilesets/monsters.png", "start": 172666, "end": 190690}, {"filename": "/assets/world/monster.csv", "start": 190690, "end": 190837}], "remote_package_size": 190837});
+    loadPackage({"files": [{"filename": "/assets/dominos/farm.csv", "start": 0, "end": 1719}, {"filename": "/assets/fonts/PixelOperatorMono-Bold.ttf", "start": 1719, "end": 18463}, {"filename": "/assets/fonts/monogram-bitmap.png", "start": 18463, "end": 19839}, {"filename": "/assets/fonts/monogram.ttf", "start": 19839, "end": 30307}, {"filename": "/assets/monsters/boar_value.csv", "start": 30307, "end": 30449}, {"filename": "/assets/monsters/boar_wave.csv", "start": 30449, "end": 30644}, {"filename": "/assets/monsters/slime_value.csv", "start": 30644, "end": 30901}, {"filename": "/assets/monsters/slime_wave.csv", "start": 30901, "end": 31142}, {"filename": "/assets/shaders/base.fs", "start": 31142, "end": 31795}, {"filename": "/assets/shaders/base.vs", "start": 31795, "end": 32323}, {"filename": "/assets/shaders/black_to_gold_100.fs", "start": 32323, "end": 32955}, {"filename": "/assets/shaders/black_to_gold_330.fs", "start": 32955, "end": 33804}, {"filename": "/assets/shaders/grayscale_100.fs", "start": 33804, "end": 34556}, {"filename": "/assets/shaders/grayscale_330.fs", "start": 34556, "end": 35321}, {"filename": "/assets/shaders/stencil_330.fs", "start": 35321, "end": 35853}, {"filename": "/assets/shaders/whitened_100.fs", "start": 35853, "end": 36340}, {"filename": "/assets/shaders/whitened_330.fs", "start": 36340, "end": 36832}, {"filename": "/assets/tiles/monsters.aseprite", "start": 36832, "end": 40050}, {"filename": "/assets/tiles/monsters.png", "start": 40050, "end": 43743}, {"filename": "/assets/tilesets/base-set.aseprite", "start": 43743, "end": 75492}, {"filename": "/assets/tilesets/base-set.png", "start": 75492, "end": 113780}, {"filename": "/assets/tilesets/dominos.aseprite", "start": 113780, "end": 132402}, {"filename": "/assets/tilesets/interface.aseprite", "start": 132402, "end": 150303}, {"filename": "/assets/tilesets/interface.png", "start": 150303, "end": 162169}, {"filename": "/assets/tilesets/monsters.aseprite", "start": 162169, "end": 178172}, {"filename": "/assets/tilesets/monsters.png", "start": 178172, "end": 196196}, {"filename": "/assets/world/monster.csv", "start": 196196, "end": 196343}], "remote_package_size": 196343});
 
   })();
 
-// end include: /tmp/tmp0r1zwl7l.js
-// include: /tmp/tmp_s0q1ghi.js
+// end include: /tmp/tmp1wkwt_xu.js
+// include: /tmp/tmp0cm9do6o.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmp_s0q1ghi.js
-// include: /tmp/tmp3_7nrmfk.js
+  // end include: /tmp/tmp0cm9do6o.js
+// include: /tmp/tmpcqvhat0b.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmp3_7nrmfk.js
+  // end include: /tmp/tmpcqvhat0b.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1051,48 +1051,48 @@ async function createWasm() {
 // === Body ===
 
 var ASM_CONSTS = {
-  178232: () => { if (document.fullscreenElement) return 1; },  
- 178278: () => { return document.getElementById('canvas').width; },  
- 178330: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 178398: () => { document.exitFullscreen(); },  
- 178425: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 178498: () => { if (document.fullscreenElement) return 1; },  
- 178544: () => { return document.getElementById('canvas').width; },  
- 178596: () => { return screen.width; },  
- 178621: () => { document.exitFullscreen(); },  
- 178648: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 178781: () => { return window.innerWidth; },  
- 178807: () => { return window.innerHeight; },  
- 178834: () => { if (document.fullscreenElement) return 1; },  
- 178880: () => { return document.getElementById('canvas').width; },  
- 178932: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 179000: () => { if (document.fullscreenElement) return 1; },  
- 179046: () => { return document.getElementById('canvas').width; },  
- 179098: () => { return screen.width; },  
- 179123: () => { return window.innerWidth; },  
- 179149: () => { return window.innerHeight; },  
- 179176: () => { if (document.fullscreenElement) return 1; },  
- 179222: () => { return document.getElementById('canvas').width; },  
- 179274: () => { return screen.width; },  
- 179299: () => { document.exitFullscreen(); },  
- 179326: () => { if (document.fullscreenElement) return 1; },  
- 179372: () => { return document.getElementById('canvas').width; },  
- 179424: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 179492: () => { document.exitFullscreen(); },  
- 179519: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 179577: () => { return screen.width; },  
- 179602: () => { return screen.height; },  
- 179628: () => { return window.screenX; },  
- 179655: () => { return window.screenY; },  
- 179682: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 179735: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 179806: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 179863: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 180119: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 180190: () => { if (document.fullscreenElement) return 1; },  
- 180236: () => { return window.innerWidth; },  
- 180262: () => { return window.innerHeight; },  
- 180289: () => { if (document.pointerLockElement) return 1; }
+  178712: () => { if (document.fullscreenElement) return 1; },  
+ 178758: () => { return document.getElementById('canvas').width; },  
+ 178810: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 178878: () => { document.exitFullscreen(); },  
+ 178905: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 178978: () => { if (document.fullscreenElement) return 1; },  
+ 179024: () => { return document.getElementById('canvas').width; },  
+ 179076: () => { return screen.width; },  
+ 179101: () => { document.exitFullscreen(); },  
+ 179128: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 179261: () => { return window.innerWidth; },  
+ 179287: () => { return window.innerHeight; },  
+ 179314: () => { if (document.fullscreenElement) return 1; },  
+ 179360: () => { return document.getElementById('canvas').width; },  
+ 179412: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 179480: () => { if (document.fullscreenElement) return 1; },  
+ 179526: () => { return document.getElementById('canvas').width; },  
+ 179578: () => { return screen.width; },  
+ 179603: () => { return window.innerWidth; },  
+ 179629: () => { return window.innerHeight; },  
+ 179656: () => { if (document.fullscreenElement) return 1; },  
+ 179702: () => { return document.getElementById('canvas').width; },  
+ 179754: () => { return screen.width; },  
+ 179779: () => { document.exitFullscreen(); },  
+ 179806: () => { if (document.fullscreenElement) return 1; },  
+ 179852: () => { return document.getElementById('canvas').width; },  
+ 179904: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 179972: () => { document.exitFullscreen(); },  
+ 179999: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
+ 180057: () => { return screen.width; },  
+ 180082: () => { return screen.height; },  
+ 180108: () => { return window.screenX; },  
+ 180135: () => { return window.screenY; },  
+ 180162: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 180215: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 180286: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 180343: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 180599: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 180670: () => { if (document.fullscreenElement) return 1; },  
+ 180716: () => { return window.innerWidth; },  
+ 180742: () => { return window.innerHeight; },  
+ 180769: () => { if (document.pointerLockElement) return 1; }
 };
 
 // end include: preamble.js
