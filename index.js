@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /tmp/tmpj2t39p0f.js
+// include: /tmp/tmpytbxt1sw.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -221,21 +221,21 @@ Module['FS_createPath']("/assets", "world", true, true);
 
   })();
 
-// end include: /tmp/tmpj2t39p0f.js
-// include: /tmp/tmpkiebxs2_.js
+// end include: /tmp/tmpytbxt1sw.js
+// include: /tmp/tmp_0l0kv61.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /tmp/tmpkiebxs2_.js
-// include: /tmp/tmpwo1tynf2.js
+  // end include: /tmp/tmp_0l0kv61.js
+// include: /tmp/tmpx5bcccdj.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /tmp/tmpwo1tynf2.js
+  // end include: /tmp/tmpx5bcccdj.js
 
 
 // Sometimes an existing Module object exists with properties
@@ -1053,48 +1053,48 @@ async function createWasm() {
 // === Body ===
 
 var ASM_CONSTS = {
-  193304: () => { if (document.fullscreenElement) return 1; },  
- 193350: () => { return document.getElementById('canvas').width; },  
- 193402: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 193470: () => { document.exitFullscreen(); },  
- 193497: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 193570: () => { if (document.fullscreenElement) return 1; },  
- 193616: () => { return document.getElementById('canvas').width; },  
- 193668: () => { return screen.width; },  
- 193693: () => { document.exitFullscreen(); },  
- 193720: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 193853: () => { return window.innerWidth; },  
- 193879: () => { return window.innerHeight; },  
- 193906: () => { if (document.fullscreenElement) return 1; },  
- 193952: () => { return document.getElementById('canvas').width; },  
- 194004: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 194072: () => { if (document.fullscreenElement) return 1; },  
- 194118: () => { return document.getElementById('canvas').width; },  
- 194170: () => { return screen.width; },  
- 194195: () => { return window.innerWidth; },  
- 194221: () => { return window.innerHeight; },  
- 194248: () => { if (document.fullscreenElement) return 1; },  
- 194294: () => { return document.getElementById('canvas').width; },  
- 194346: () => { return screen.width; },  
- 194371: () => { document.exitFullscreen(); },  
- 194398: () => { if (document.fullscreenElement) return 1; },  
- 194444: () => { return document.getElementById('canvas').width; },  
- 194496: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 194564: () => { document.exitFullscreen(); },  
- 194591: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 194649: () => { return screen.width; },  
- 194674: () => { return screen.height; },  
- 194700: () => { return window.screenX; },  
- 194727: () => { return window.screenY; },  
- 194754: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 194807: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 194878: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 194935: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 195191: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 195262: () => { if (document.fullscreenElement) return 1; },  
- 195308: () => { return window.innerWidth; },  
- 195334: () => { return window.innerHeight; },  
- 195361: () => { if (document.pointerLockElement) return 1; }
+  193400: () => { if (document.fullscreenElement) return 1; },  
+ 193446: () => { return document.getElementById('canvas').width; },  
+ 193498: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 193566: () => { document.exitFullscreen(); },  
+ 193593: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 193666: () => { if (document.fullscreenElement) return 1; },  
+ 193712: () => { return document.getElementById('canvas').width; },  
+ 193764: () => { return screen.width; },  
+ 193789: () => { document.exitFullscreen(); },  
+ 193816: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 193949: () => { return window.innerWidth; },  
+ 193975: () => { return window.innerHeight; },  
+ 194002: () => { if (document.fullscreenElement) return 1; },  
+ 194048: () => { return document.getElementById('canvas').width; },  
+ 194100: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 194168: () => { if (document.fullscreenElement) return 1; },  
+ 194214: () => { return document.getElementById('canvas').width; },  
+ 194266: () => { return screen.width; },  
+ 194291: () => { return window.innerWidth; },  
+ 194317: () => { return window.innerHeight; },  
+ 194344: () => { if (document.fullscreenElement) return 1; },  
+ 194390: () => { return document.getElementById('canvas').width; },  
+ 194442: () => { return screen.width; },  
+ 194467: () => { document.exitFullscreen(); },  
+ 194494: () => { if (document.fullscreenElement) return 1; },  
+ 194540: () => { return document.getElementById('canvas').width; },  
+ 194592: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 194660: () => { document.exitFullscreen(); },  
+ 194687: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
+ 194745: () => { return screen.width; },  
+ 194770: () => { return screen.height; },  
+ 194796: () => { return window.screenX; },  
+ 194823: () => { return window.screenY; },  
+ 194850: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 194903: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 194974: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 195031: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 195287: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 195358: () => { if (document.fullscreenElement) return 1; },  
+ 195404: () => { return window.innerWidth; },  
+ 195430: () => { return window.innerHeight; },  
+ 195457: () => { if (document.pointerLockElement) return 1; }
 };
 
 // end include: preamble.js
